@@ -70,6 +70,11 @@ const links: LinkItem[] = [
     image: '/spotify.svg',
   },
   {
+    title: 'Teamcamp',
+    url: 'https://dash.teamcamp.app/',
+    image: '/teamcamp.svg',
+  },
+  {
     title: 'Pomofocus',
     url: 'https://pomofocus.io/app/',
     image: '/pomofocus.svg',
@@ -90,6 +95,11 @@ const links: LinkItem[] = [
     title: 'Meet',
     url: 'https://meet.google.com/ugw-khvs-wme',
     image: '/meet.svg',
+  },
+  {
+    title: 'Github',
+    url: 'https://github.com/madebyosama',
+    image: '/github.svg',
   },
 ];
 
