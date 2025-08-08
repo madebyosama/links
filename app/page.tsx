@@ -62,20 +62,27 @@ const links: LinkItem[] = [
     url: 'https://www.youtube.com/@madebyosama',
     image: '/youtube.svg',
   },
-  {
-    title: 'MyMind',
-    url: 'https://access.mymind.com/everything',
-    image: '/mymind.svg',
-  },
+
   {
     title: 'Spotify',
     url: 'https://open.spotify.com/playlist/4ZUhRGeWtM5tIsvZz5OX88',
     image: '/spotify.svg',
   },
   {
+    title: 'Pomofocus',
+    url: 'https://pomofocus.io/app/',
+    image: '/pomofocus.svg',
+  },
+  {
     title: 'Blinkist',
     url: 'https://www.blinkist.com/en/app/for-you',
     image: '/blinkist.svg',
+  },
+
+  {
+    title: 'MyMind',
+    url: 'https://access.mymind.com/everything',
+    image: '/mymind.svg',
   },
 ];
 
