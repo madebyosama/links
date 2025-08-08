@@ -12,6 +12,11 @@ type LinkItem = {
 
 const links: LinkItem[] = [
   {
+    title: 'Quran',
+    url: 'https://quran.com/',
+    image: '/quran.svg',
+  },
+  {
     title: 'Fiverr',
     url: 'https://www.fiverr.com/madebyosama',
     image: '/fiverr.svg',
@@ -31,11 +36,7 @@ const links: LinkItem[] = [
     url: 'https://app.zoom.us/wc/3988095546/start',
     image: '/zoom.svg',
   },
-  {
-    title: 'Meet',
-    url: 'https://meet.google.com/ugw-khvs-wme',
-    image: '/meet.svg',
-  },
+
   {
     title: 'Linkedin',
     url: 'https://www.linkedin.com/in/madebyosama/recent-activity/all/',
@@ -83,6 +84,12 @@ const links: LinkItem[] = [
     title: 'MyMind',
     url: 'https://access.mymind.com/everything',
     image: '/mymind.svg',
+  },
+
+  {
+    title: 'Meet',
+    url: 'https://meet.google.com/ugw-khvs-wme',
+    image: '/meet.svg',
   },
 ];
 
