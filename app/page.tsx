@@ -36,23 +36,24 @@ const links: LinkItem[] = [
     url: 'https://app.zoom.us/wc/3988095546/start',
     image: '/zoom.svg',
   },
+  {
+    title: 'Instagram',
+    url: 'https://www.instagram.com/madebyosama/',
+    image: '/instagram.svg',
+  },
 
   {
     title: 'Linkedin',
     url: 'https://www.linkedin.com/in/madebyosama/recent-activity/all/',
     image: '/linkedin.svg',
   },
-  {
-    title: 'Instagram',
-    url: 'https://www.instagram.com/madebyosama/',
-    image: '/instagram.svg',
-  },
-  { title: 'X', url: 'https://twitter.com/madebyosama', image: '/x.svg' },
+
   {
     title: 'Threads',
     url: 'https://www.threads.net/@madebyosama',
     image: '/threads.svg',
   },
+  { title: 'X', url: 'https://twitter.com/madebyosama', image: '/x.svg' },
   {
     title: 'Facebook',
     url: 'https://www.facebook.com/',
@@ -92,14 +93,29 @@ const links: LinkItem[] = [
   },
 
   {
-    title: 'Meet',
-    url: 'https://meet.google.com/ugw-khvs-wme',
-    image: '/meet.svg',
-  },
-  {
     title: 'Github',
     url: 'https://github.com/madebyosama',
     image: '/github.svg',
+  },
+  {
+    title: 'Music',
+    url: 'https://music.madebyosama.com/',
+    image: '/music.svg',
+  },
+  {
+    title: 'Notes',
+    url: 'https://notes.madebyosama.com/',
+    image: '/notes.svg',
+  },
+  {
+    title: 'Bookmarks',
+    url: 'https://bookmarks.madebyosama.com/',
+    image: '/bookmarks.svg',
+  },
+  {
+    title: 'Meet',
+    url: 'https://meet.google.com/ugw-khvs-wme',
+    image: '/meet.svg',
   },
 ];
 
