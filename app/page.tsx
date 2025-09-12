@@ -1,14 +1,14 @@
-'use client';
+'use client'
 
-import { useState } from 'react';
-import Image from 'next/image';
-import styles from './page.module.css';
+import { useState } from 'react'
+import Image from 'next/image'
+import styles from './page.module.css'
 
 type LinkItem = {
-  title: string;
-  url: string;
-  image: string;
-};
+  title: string
+  url: string
+  image: string
+}
 
 const links: LinkItem[] = [
   {
@@ -52,6 +52,11 @@ const links: LinkItem[] = [
     title: 'Threads',
     url: 'https://www.threads.net/@madebyosama',
     image: '/threads.svg',
+  },
+  {
+    title: 'Tiktok',
+    url: 'https://www.tiktok.com/@madebyosama',
+    image: '/tiktok.svg',
   },
   { title: 'X', url: 'https://twitter.com/madebyosama', image: '/x.svg' },
   {
@@ -117,14 +122,14 @@ const links: LinkItem[] = [
     url: 'https://meet.google.com/ugw-khvs-wme',
     image: '/meet.svg',
   },
-];
+]
 
 export default function Links() {
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState('')
 
   const filteredLinks = links.filter((link) =>
     link.title.toLowerCase().includes(query.toLowerCase())
-  );
+  )
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter') {
@@ -132,10 +137,10 @@ export default function Links() {
         window.open(
           `https://www.google.com/search?q=${encodeURIComponent(query)}`,
           '_blank'
-        );
+        )
       }
     }
-  };
+  }
 
   return (
     <div className={styles.page}>
@@ -171,5 +176,5 @@ export default function Links() {
         ))}
       </div>
     </div>
-  );
+  )
 }
