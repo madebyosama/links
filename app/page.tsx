@@ -82,7 +82,7 @@ const links: LinkItem[] = [
   },
   {
     title: 'Pomofocus',
-    url: 'https://pomofocus.io/app/',
+    url: 'https://pomofocus.io/',
     image: '/pomofocus.svg',
   },
   {
