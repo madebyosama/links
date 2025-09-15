@@ -103,6 +103,16 @@ const links: LinkItem[] = [
     image: '/github.svg',
   },
   {
+    title: 'ChatGPT',
+    url: 'https://chatgpt.com/?model=auto',
+    image: '/chatgpt.svg',
+  },
+  {
+    title: 'Figma',
+    url: 'https://www.figma.com/files/team/1126831128886815857/recents-and-sharing?fuid=629777029770090983',
+    image: '/figma.svg',
+  },
+  {
     title: 'Music',
     url: 'https://music.madebyosama.com/',
     image: '/music.svg',
