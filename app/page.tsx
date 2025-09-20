@@ -93,17 +93,17 @@ const links: LinkItem[] = [
   {
     title: 'Raindrop',
     url: 'https://app.raindrop.io/my/54664777',
-    image: '/chatgpt.svg',
+    image: '/raindrop.svg',
   },
   {
     title: 'Photopea',
     url: 'https://www.photopea.com/',
-    image: '/chatgpt.svg',
+    image: '/photopea.svg',
   },
   {
     title: 'Firebase',
     url: 'https://console.firebase.google.com/project/uploadedbyosama/storage/uploadedbyosama.appspot.com/files/~2FBookmarks',
-    image: '/chatgpt.svg',
+    image: '/firebase.svg',
   },
   {
     title: 'ChatGPT',
@@ -159,7 +159,7 @@ const links: LinkItem[] = [
   {
     title: 'Whisk',
     url: 'https://labs.google/fx/tools/whisk/project',
-    image: '/meet.svg',
+    image: '/whisk.svg',
   },
 ]
 
