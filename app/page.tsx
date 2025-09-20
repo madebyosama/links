@@ -113,7 +113,12 @@ const links: LinkItem[] = [
   {
     title: 'Sheets',
     url: 'https://docs.google.com/spreadsheets/d/1jonPSUsmPe5NZ9odeGyrgt8I32oViHkQ79XFVYyv2ZU/edit?gid=0#gid=0',
-    image: '/chatgpt.svg',
+    image: '/sheets.svg',
+  },
+  {
+    title: 'Docs',
+    url: 'https://docs.google.com/document/u/0/',
+    image: '/docs.svg',
   },
 
   {
