@@ -86,6 +86,36 @@ const links: LinkItem[] = [
     image: '/pomofocus.svg',
   },
   {
+    title: 'Bookmarks',
+    url: 'https://bookmarks.madebyosama.com/',
+    image: '/bookmarks.svg',
+  },
+  {
+    title: 'ChatGPT',
+    url: 'https://chatgpt.com/?model=auto',
+    image: '/chatgpt.svg',
+  },
+  {
+    title: 'Sheets',
+    url: 'https://docs.google.com/spreadsheets/d/1jonPSUsmPe5NZ9odeGyrgt8I32oViHkQ79XFVYyv2ZU/edit?gid=0#gid=0',
+    image: '/chatgpt.svg',
+  },
+  {
+    title: 'Firebase',
+    url: 'https://console.firebase.google.com/project/uploadedbyosama/storage/uploadedbyosama.appspot.com/files/~2FBookmarks',
+    image: '/chatgpt.svg',
+  },
+  {
+    title: 'Photopea',
+    url: 'https://www.photopea.com/',
+    image: '/chatgpt.svg',
+  },
+  {
+    title: 'Raindrop',
+    url: 'https://app.raindrop.io/my/54664777',
+    image: '/chatgpt.svg',
+  },
+  {
     title: 'Blinkist',
     url: 'https://www.blinkist.com/en/app/for-you',
     image: '/blinkist.svg',
@@ -102,11 +132,7 @@ const links: LinkItem[] = [
     url: 'https://github.com/madebyosama',
     image: '/github.svg',
   },
-  {
-    title: 'ChatGPT',
-    url: 'https://chatgpt.com/?model=auto',
-    image: '/chatgpt.svg',
-  },
+
   {
     title: 'Figma',
     url: 'https://www.figma.com/files/team/1126831128886815857/recents-and-sharing?fuid=629777029770090983',
@@ -117,16 +143,13 @@ const links: LinkItem[] = [
     url: 'https://music.madebyosama.com/',
     image: '/music.svg',
   },
+
   {
     title: 'Notes',
     url: 'https://notes.madebyosama.com/',
     image: '/notes.svg',
   },
-  {
-    title: 'Bookmarks',
-    url: 'https://bookmarks.madebyosama.com/',
-    image: '/bookmarks.svg',
-  },
+
   {
     title: 'Meet',
     url: 'https://meet.google.com/ugw-khvs-wme',
