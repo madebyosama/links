@@ -156,6 +156,11 @@ const links: LinkItem[] = [
     url: 'https://meet.google.com/ugw-khvs-wme',
     image: '/meet.svg',
   },
+  {
+    title: 'Whisk',
+    url: 'https://labs.google/fx/tools/whisk/project',
+    image: '/meet.svg',
+  },
 ]
 
 export default function Links() {
