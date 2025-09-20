@@ -197,7 +197,22 @@ export default function Links() {
           <div
             key={link.title}
             className={styles.linkItem}
-            onClick={() => window.open(link.url, '_blank')}
+            onClick={() => {
+              if (link.title === 'Bookmarks') {
+                // Open multiple URLs at once
+                const bookmarkUrls = [
+                  'https://bookmarks.madebyosama.com/',
+                  'https://app.raindrop.io/my/54664777',
+                  'https://www.photopea.com/',
+                  'https://console.firebase.google.com/project/uploadedbyosama/storage/uploadedbyosama.appspot.com/files/~2FBookmarks',
+                  'https://chatgpt.com/c/68ce60ff-e71c-8322-ae04-b20a5bd178f3',
+                  'https://docs.google.com/spreadsheets/d/1jonPSUsmPe5NZ9odeGyrgt8I32oViHkQ79XFVYyv2ZU/edit?gid=0#gid=0',
+                ]
+                bookmarkUrls.forEach((url) => window.open(url, '_blank'))
+              } else {
+                window.open(link.url, '_blank')
+              }
+            }}
           >
             <div className={styles.iconContainer}>
               <Image
