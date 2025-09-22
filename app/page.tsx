@@ -12,6 +12,26 @@ type LinkItem = {
 
 const links: LinkItem[] = [
   {
+    title: 'Chess',
+    url: 'https://labs.google/fx/tools/whisk/project',
+    image: '/chess.svg',
+  },
+  {
+    title: 'Duolingo',
+    url: 'https://www.duolingo.com/learn',
+    image: '/duolingo.svg',
+  },
+  {
+    title: 'Binance',
+    url: 'https://www.binance.com/en/my/dashboard',
+    image: '/binance.svg',
+  },
+  {
+    title: 'TradingView',
+    url: 'https://www.tradingview.com/chart/mykyfRZM/',
+    image: '/tradingview.svg',
+  },
+  {
     title: 'Quran',
     url: 'https://quran.com/',
     image: '/quran.svg',

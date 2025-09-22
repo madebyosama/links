@@ -1,6 +1,5 @@
 .page {
   padding: 2rem;
-
   font-family: var(--font-outfit), sans-serif;
   align-items: center;
 }
@@ -10,7 +9,7 @@
   grid-template-columns: repeat(auto-fit, 150px);
   gap: 1rem;
   justify-content: center;
-  max-width: 900px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -73,7 +72,7 @@
     height: auto;
   }
   .links {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .searchInput {
     max-width: 80%;
