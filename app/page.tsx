@@ -227,11 +227,12 @@ export default function Links() {
                 // Open multiple URLs at once
                 const bookmarkUrls = [
                   'https://bookmarks.madebyosama.com/',
+                  'https://docs.google.com/spreadsheets/d/1jonPSUsmPe5NZ9odeGyrgt8I32oViHkQ79XFVYyv2ZU/edit?gid=0#gid=0',
+                  'https://chatgpt.com/c/68ce60ff-e71c-8322-ae04-b20a5bd178f3',
+                  'https://console.firebase.google.com/project/uploadedbyosama/storage/uploadedbyosama.appspot.com/files/~2FBookmarks',
                   'https://app.raindrop.io/my/54664777',
                   'https://www.photopea.com/',
-                  'https://console.firebase.google.com/project/uploadedbyosama/storage/uploadedbyosama.appspot.com/files/~2FBookmarks',
-                  'https://chatgpt.com/c/68ce60ff-e71c-8322-ae04-b20a5bd178f3',
-                  'https://docs.google.com/spreadsheets/d/1jonPSUsmPe5NZ9odeGyrgt8I32oViHkQ79XFVYyv2ZU/edit?gid=0#gid=0',
+                  'https://www.google.com/search?q=https%3A%2F%2Fxyz.com&sca_esv=637c0e90f834ed3d&rlz=1C5CHFA_enPK1137PK1137&udm=2&biw=1728&bih=885&ei=5U3SaO6XL_2K7NYP8uLD0AQ&ved=0ahUKEwiunv3or-6PAxV9BdsEHXLxEEoQ4dUDCBE&uact=5&oq=https%3A%2F%2Fxyz.com&gs_lp=Egtnd3Mtd2l6LWltZyIPaHR0cHM6Ly94eXouY29tMgcQABiABBgKMgQQABgeMgYQABgIGB4yBhAAGAgYHjIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHjIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHkjUHFBVWKgacAN4AJABAJgB0gKgAYUQqgEFMi04LjG4AQPIAQD4AQGYAgmgAtcOwgIFEAAYgASYAwCIBgGSBwcxLjAuNy4xoAf7K7IHBTItNy4xuAfUDsIHBTAuNC41yAch&sclient=gws-wiz-img',
                 ]
                 bookmarkUrls.forEach((url) => window.open(url, '_blank'))
               } else {
